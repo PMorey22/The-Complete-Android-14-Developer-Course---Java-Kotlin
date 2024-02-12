@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sucrose" type="id" />
+    <item name="tannins" type="id" />
+    <item name="fructose" type="id" />
+    <item name="glucose" type="id" />
+    <item name="phenolic_acids" type="id" />
+    <item name="citric_acid" type="id" />
+    <item name="malic_acid" type="id" />
+    <item name="tartaric_acid" type="id" />
+    <item name="alkaloids" type="id" />
+    <item name="terpenes" type="id" />
+    <item name="predict" type="id" />
+    <item name="result" type="id" />
+</resources>

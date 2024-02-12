@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ML_model">
+
+    <EditText
+        android:id="@+id/Sucrose"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Sucrose"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Fructose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <EditText
+        android:id="@+id/Fructose"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Fructose"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tannins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Tannins"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Tannins"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Phenolic_Acid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Phenolic_Acid"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Phenolic Acid"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Citriic_Acid"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Citric Acid"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Malic"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Malic Acid"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Alcaloids"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Alkaloids"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/terepens"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of  Terpenes"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/tartaric"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Tartaric Acid"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <EditText
+        android:id="@+id/Glucose"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_brd"
+        android:hint="Enter the value of Glucose"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Sucrose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        app:layout_goneMarginStart="16dp"
+        app:layout_goneMarginTop="370dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:text="PREDICT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terepens"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="294dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="16dp"
+        android:text="Output"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
